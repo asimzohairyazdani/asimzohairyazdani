@@ -1,0 +1,9 @@
+def up_low(s):      
+    u = sum(1 for i in s if i.isupper())
+    l = sum(1 for i in s if i.islower())
+    print( "No. of Upper case characters : %s,No. of Lower case characters : %s" % (u,l))
+
+up_low("Hello Mr. Rogers, how are you this fine Tuesday?")
+
+Output: No. of Upper case characters : 4,No. of Lower case characters : 33
+
